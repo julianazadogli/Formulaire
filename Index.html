@@ -1,0 +1,52 @@
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title> Formulaire d'inscription à la formation Dev Web du programme D-CLIC.
+    </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulaire d'inscription à la formation Dev Web du programme D-CLIC.</h1>
+    <form id="registration"></form>
+        <label for="Nom"> Nom:</label>
+        <input type="text" id="Nom" required> <br><br>
+
+        <label for="Prénoms"> Prénoms:</label>
+        <input type="text" id="Prénoms" required> <br><br>
+
+        <label for="date-naissance"> Date de naissance:</label>
+        <input type="date" id="date-naissance" required> <br><br>
+
+        <label for="telephone"> Numéro de téléphone:</label>
+        <input type="number" id="Numéro" pattern="01 [0-9] {8}" required><br><br>
+
+        <label for="motivation"> Motivation:</label> <textarea name="motivation"   cols="40" rows="20"  required minlength="1000"  maxlength="2500" ></textarea> 
+
+       
+
+        <button> Envoyer
+
+        </button>
+        <br><br>
+        
+
+                    <div id="result" class="hidden">
+                        <h2> Information d'inscription
+                             </h2>
+                             <p id="info">
+
+                             </p>
+
+                    </div>
+
+    </div>
+    <SCript> src= <Style class="css"></Style>
+    </SCript>
+    <script src="scrip.js">
+
+    </script>
+</body>
+</html>
